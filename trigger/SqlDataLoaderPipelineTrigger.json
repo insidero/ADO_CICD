@@ -1,0 +1,24 @@
+{
+	"name": "SqlDataLoaderPipelineTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "SqlDataLoader",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2021-01-21T15:39:51Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
