@@ -4,6 +4,7 @@
 		"activities": [
 			{
 				"name": "Copy latest data",
+				"description": "dsklfn",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
